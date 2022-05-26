@@ -1,0 +1,23 @@
+<html>
+    <head>
+ 
+    </head>
+    <body>
+        <script>
+            function disp(){
+            let a=parseInt(document.getElementById("a").value);
+    let b=parseInt(document.getElementById("b").value);
+    document.getElementById("res").innerHTML=(a+b);
+            }
+ 
+    </script>
+    <body>
+<center>
+    <label>enter value</label></label><input type="text" id="a"><br><br>
+    <label>enter value</label><input type="text" id="b"><br><br>
+    <input type="submit" onclick="disp()">
+    <hr>
+    <p id="res"></p>
+    </center>
+        </body>
+</html>
