@@ -1,0 +1,27 @@
+<html>
+    <head>
+ 
+    </head>
+    <body>
+        <script>
+            function mul(){
+                let a=document.getElementById("a").value;
+                let b=document.getElementById("b").value;
+                let i=a;
+                let res;
+                let sum=0;
+                for(i=a;i<=b;i++)
+                {
+                    document.write(i*i+" ");
+                }
+ 
+            }
+        </script>
+        <center>
+       <label>enter minimum value</label></lable> <input type="text" id="a"><br><br>
+       <label>enter maximum value</label><input type="text" id="b"><br><br>
+       <input type="submit" onclick="mul()">
+        </center>
+        <p id="par"></p>
+    </body>
+</html>
